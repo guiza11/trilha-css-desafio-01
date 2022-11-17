@@ -1,0 +1,174 @@
+@import url(reset.css);
+
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body{
+    background: #000000;
+    color: #FFFFFF;
+}
+h2{
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #33A8DB;
+
+}
+p{
+    color: #FFFFFF;
+}
+
+section{
+    margin: 100px auto;
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url(images/banner.png);
+    border-bottom: 1px solid #33A8DB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+.banner .banner-content{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+.banner .logo{
+    width: 260px;
+    height: 260px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.banner .logo img{
+    margin: auto;
+    width: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner h1{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 40px;
+    background: linear-gradient(#33A8DB, #1472B7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.banner p{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 23px;
+    margin: 16px 0 24px;
+}
+
+.banner .banner-content button{
+   
+    border: 2px solid;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+    border-image-slice: 20;
+    padding: 1rem 2rem;
+    
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 0.21em;
+    font-size: 1rem;
+    font-weight: 900;
+    line-height: 19px;
+    text-align: center;
+}
+
+#course-content{
+    width: 800px;
+    text-align: center;
+}
+
+#course-content .modules-list{
+    margin: 24px 0;
+}
+
+#course-content .modules-list .module {
+    overflow: hidden;
+    padding: 16px ;
+    width: 530px;
+    height: 51px; 
+    margin: 0 auto 24px;  
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    box-shadow: inset -10px 6px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 57px;    
+}
+
+span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    height: 363px;
+    background-image: url(images/woman-code.png);
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid;
+    border-color: #33A8DB;
+
+}
+
+#transform-world p{
+    width: 244px;
+    height: 141px;
+    margin: 100px 998px 111px 198px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    text-shadow: 3px 2px 0px #33A8DB;
+    text-transform: lowercase;
+}
+
+#professional-challenges{
+    width: 800px;
+    text-align: center;
+}
+
+#profissional-challenges img{
+    margin: 32px 0;
+}
+#profissional-challenges h2{
+    width: 746;
+}
+#profissional-challenges p{
+    width: 729px;
+    height: 76px;
+    margin: 324px;
+}
+
+footer{
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+    text-align: center;
+}
+footer p{
+    margin: -50px;
+}
+
+footer img{
+    width: 310px;
+    height: 44px;
+    margin: 50px 40%;
+}
